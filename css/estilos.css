@@ -1,8 +1,56 @@
 
 .navbar {
   width: 100%;
+  height: 50px;
 }
 
-.sushihero {
-      width: 35vw;
+body {
+  background-image: url(../img/tabla.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: 55px;
+  background-size: 100%;
+  background-color: black;
+
 }
+
+h1 {
+  color: #f0f8ff;
+
+}
+
+p {
+  height: 100px;
+  color: #f0f8ff;
+}
+
+span {
+  position:relative;
+  float: left;
+  padding-left: 100px;
+  text-align:center;
+  width: 50%;
+  margin-top: 15rem;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 1000;
+  font-size: 5rem;
+  display: flex;
+}
+
+#sushiroll img {
+  border-radius: 500px;
+box-shadow: 0px 0px 20px -1px #101010;
+}
+
+.form-control {
+   width: 500px;
+}
+
+
+#login {
+  background-color: #e33c3f;
+  box-shadow: 0 3px 10px -3px black;
+}
+
+
+
